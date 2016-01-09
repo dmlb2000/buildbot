@@ -1,0 +1,7 @@
+from python:2-onbuild
+
+ENV SLAVE_USER example-slave
+ENV SLAVE_PASS pass
+EXPOSE 8080
+EXPOSE 8081
+CMD [ "/bin/bash", "-xe", "/usr/src/app/runit.sh", "master" ]

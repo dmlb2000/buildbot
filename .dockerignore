@@ -1,0 +1,5 @@
+Dockerfile.master
+Dockerfile.slave
+docker-compose.yml
+.git
+.gitignore

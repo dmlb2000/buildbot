@@ -1,0 +1,5 @@
+from python:2-onbuild
+
+ENV SLAVE_USER example-slave
+ENV SLAVE_PASS pass
+CMD [ "/bin/bash", "-xe", "/usr/src/app/runit.sh", "slave" ]

@@ -1,0 +1,3 @@
+sphinx
+buildbot
+buildbot-slave
